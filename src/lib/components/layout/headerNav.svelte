@@ -10,7 +10,7 @@
 	import { Input } from '@/components/ui/input';
 	import { Label } from '@/components/ui/label';
 	import * as DropdownMenu from '@/components/ui/dropdown-menu';
-	import DropdownMenuItem from '../ui/dropdown-menu/dropdown-menu-item.svelte';
+	import DropdownMenuItem from '@/components/ui/dropdown-menu/dropdown-menu-item.svelte';
 </script>
 
 <nav class="flex items-center space-x-1">
