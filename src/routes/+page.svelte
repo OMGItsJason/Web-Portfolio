@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
 	import Logo from '@/assets/logo/Logo.png';
 </script>
 
@@ -16,4 +16,4 @@
 		</p>
 		<span class="text-xl md:text-4xl">🚧🚧🚧</span>
 	</div>
-</div>
+</div> -->
