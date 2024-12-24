@@ -46,11 +46,19 @@
 								autocomplete="off"
 								placeholder="Email"
 								required
+								class="focus-visible:ring-0"
 							/>
 						</div>
 						<div>
 							<Label for="subject">Subject:</Label>
-							<Input type="text" id="subject" name="subject" placeholder="Subject" required />
+							<Input
+								type="text"
+								id="subject"
+								name="subject"
+								placeholder="Subject"
+								class="focus-visible:ring-0"
+								required
+							/>
 						</div>
 						<div>
 							<Label for="message">Message:</Label>
@@ -58,7 +66,7 @@
 								id="message"
 								name="message"
 								placeholder="Message"
-								class="min-h-52 resize-none"
+								class="min-h-52 resize-none focus-visible:ring-0"
 								required
 							/>
 						</div>
