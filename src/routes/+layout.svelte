@@ -8,5 +8,6 @@
 <ModeWatcher />
 <div class="w-svw">
 	<Header />
+	<div></div>
 </div>
 {@render children()}
