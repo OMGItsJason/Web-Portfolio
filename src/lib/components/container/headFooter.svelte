@@ -23,9 +23,11 @@
 
 <div class="hidden md:flex">
 	{#each Links as { icon, href, label }}
-		<Button variant="ghost" {href} target="_blank">
-			<svelte:component this={icon} class="size-5" />
-			{label}
+		<Button variant="ghost" {href} target="_blank" class="flex items-center md:text-lg">
+			<svelte:component this={icon} />
+			<span>
+				{label}
+			</span>
 		</Button>
 	{/each}
 </div>
