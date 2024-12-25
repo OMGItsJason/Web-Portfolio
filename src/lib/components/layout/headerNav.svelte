@@ -34,7 +34,7 @@
 		</Dialog.Trigger>
 		<Dialog.Content>
 			<Dialog.Header>
-				<Dialog.Title>Send Email</Dialog.Title>
+				<Dialog.Title class="text-center">Send Email</Dialog.Title>
 				<Dialog.Description>
 					<form action="?submit" method="post" class="space-y-3 text-left">
 						<div>
