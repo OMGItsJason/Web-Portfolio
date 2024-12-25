@@ -22,7 +22,7 @@
 		/>
 		{#if searchOpen}
 			<Command.List
-				class="absolute left-0 right-0 top-10 w-full rounded-t-sm border-2 bg-white dark:bg-black"
+				class="absolute left-0 right-0 top-10 z-50 w-full rounded-t-sm border-2 bg-white dark:bg-black"
 			>
 				<Command.Empty>No results found.</Command.Empty>
 				<CommandGroup heading="Recommended">
