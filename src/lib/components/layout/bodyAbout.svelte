@@ -11,7 +11,7 @@
 
 <div>
 	{#if imgLoad}
-		<Skeleton class="size-52 rounded-full" />
+		<Skeleton class="size-16 rounded-full" />
 	{/if}
 	<div class="flex justify-between md:items-center">
 		<div class="md:flex md:items-center md:space-x-3">
