@@ -24,7 +24,7 @@
 			/>
 			<div>
 				<h1 class=" text-2xl font-bold md:text-4xl">Jason Maliquid</h1>
-				<p class="motion-preset-typewriter-[20] text-sm font-normal md:text-xl">
+				<p class="motion-preset-typewriter-[24] text-sm font-normal md:text-xl">
 					Full Stack Web Developer
 				</p>
 			</div>
