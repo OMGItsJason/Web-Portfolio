@@ -23,8 +23,10 @@
 				style:display={imgLoad ? 'none' : 'block'}
 			/>
 			<div>
-				<h1 class="text-2xl font-bold md:text-4xl">Jason Maliquid</h1>
-				<p class="text-sm font-normal md:text-xl">Full Stack Web Developer</p>
+				<h1 class=" text-2xl font-bold md:text-4xl">Jason Maliquid</h1>
+				<p class="motion-preset-typewriter-[20] text-sm font-normal md:text-xl">
+					Full Stack Web Developer
+				</p>
 			</div>
 		</div>
 		<div>
