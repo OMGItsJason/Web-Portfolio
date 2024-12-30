@@ -5,8 +5,8 @@
 	let searchOpen: boolean = $state(false);
 
 	const searchItems = [
-		{ name: 'About', href: '/about' },
-		{ name: 'Tech Stack', href: '/techStack' },
+		{ name: 'About', href: '/' },
+		{ name: 'Tech Stack', href: '/' },
 		{ name: 'Projects', href: '/projects' },
 		{ name: 'Certificates', href: '/certificates' }
 	];
