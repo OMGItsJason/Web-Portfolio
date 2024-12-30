@@ -73,7 +73,7 @@
 	{#each techStacks as icon}
 		<Tooltip.Provider>
 			<Tooltip.Root>
-				<Tooltip.Trigger>
+				<Tooltip.Trigger class="motion-preset-pop">
 					{@html icon.svg}
 					<span class="text-sm font-medium md:text-base">
 						{icon.name}
