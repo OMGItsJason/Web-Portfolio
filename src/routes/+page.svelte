@@ -68,8 +68,8 @@
 	];
 </script>
 
-<div class="grid grid-cols-3 place-items-center gap-3 text-center">
-	<h1 class="col-span-3 text-xl font-bold md:text-3xl">TECH STACK EXPERIENCE</h1>
+<div class="grid grid-cols-3 place-items-center gap-3 text-center md:grid-cols-6 md:gap-6">
+	<h1 class="col-span-3 text-xl font-bold md:col-span-6 md:text-3xl">TECH STACK EXPERIENCE</h1>
 	{#each techStacks as icon}
 		<Tooltip.Provider>
 			<Tooltip.Root>
