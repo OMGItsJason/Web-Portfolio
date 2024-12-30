@@ -80,9 +80,10 @@
 					</span>
 				</Tooltip.Trigger>
 				<Tooltip.Content>
-					<p>{icon.experience}</p>
+					{icon.experience}
 				</Tooltip.Content>
 			</Tooltip.Root>
 		</Tooltip.Provider>
 	{/each}
 </div>
+<p class="pt-3 text-center">Hover To View Experience</p>
