@@ -20,7 +20,7 @@
 </script>
 
 <Card.Root>
-	<Card.Header class="flex items-center p-2 text-center md:items-start md:text-left">
+	<Card.Header class="flex items-start p-2">
 		<Card.Title class="flex p-0">
 			{#each navItem as item}
 				<Button href={item.href} variant="link" class="md:text-lg">{item.title}</Button>
