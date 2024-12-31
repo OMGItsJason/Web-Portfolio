@@ -22,15 +22,15 @@
 		},
 		{
 			img: VSHR,
-			project: 'Reservation System With 360 View',
+			project: 'Online Reservation System With 360 View',
 			link: 'https://villa-salome-hotel-and-resort.vercel.app/'
 		}
 	];
 </script>
 
-<div class="grid grid-rows-[1fr,auto,1fr] gap-3">
-	<h1 class="text-xl font-bold md:col-span-4 md:text-3xl">FEATURED PROJECTS</h1>
-	<div class="grid place-content-center gap-3 text-center">
+<div class=" grid grid-rows-[1fr,auto,2fr] gap-3">
+	<h1 class="text-xl font-bold md:text-3xl">FEATURED PROJECTS</h1>
+	<div class="grid place-content-center gap-3 text-center md:row-start-2 md:grid-cols-4">
 		{#each projects as project}
 			<a
 				href={project.link}
@@ -41,15 +41,14 @@
 				<enhanced:img
 					src={project.img}
 					alt={project.project}
-					class="h-[100px] w-[250px] rounded-sm object-fill"
+					class="h-[180px] w-full rounded-sm object-fill md:h-full"
 				/>
-				<span>{project.project}</span>
+				<span class="hidden text-base font-medium md:block">{project.project}</span>
 			</a>
 		{/each}
 	</div>
 	<a
 		href="https://github.com/OMGItsJason"
-		class="row-start-3 text-center text-sm font-semibold underline underline-offset-4"
-		>More Projects</a
+		class="mt-auto text-center font-medium underline underline-offset-4 md:text-sm">More Projects</a
 	>
 </div>
