@@ -30,12 +30,12 @@
 
 <div class="grid grid-rows-[1fr,auto,1fr] gap-3">
 	<h1 class="text-xl font-bold md:col-span-4 md:text-3xl">FEATURED PROJECTS</h1>
-	<div class="grid place-items-center gap-3 text-center">
+	<div class="grid place-content-center gap-3 text-center">
 		{#each projects as project}
 			<a
 				href={project.link}
 				aria-label={project.project}
-				class="text-sm font-medium md:text-base"
+				class="h-full w-full text-sm font-medium md:text-base"
 				target="_blank"
 			>
 				<enhanced:img
