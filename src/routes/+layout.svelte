@@ -17,7 +17,7 @@
 		<BodyNav />
 		<div class="grid space-y-3 md:grid-cols-2 md:space-x-3 md:space-y-0">
 			<About />
-			<Card.Root class="md:p-5">
+			<Card.Root class="p-3 md:p-5">
 				{@render children()}
 			</Card.Root>
 		</div>
