@@ -15,7 +15,7 @@
 		},
 		{
 			icon: MapPin,
-			title: 'Location',
+			title: 'Base',
 			description: 'Tabaco City, Albay, Philippines'
 		}
 	];
