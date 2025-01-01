@@ -34,7 +34,7 @@
 			<Button
 				variant="ghost"
 				onclick={() => viewSelectedCertificate(cert)}
-				class="h-52 w-full md:h-full"
+				class="h-full w-full hover:bg-transparent"
 			>
 				<enhanced:img src={cert.image} alt={cert.alt} class="h-full w-full object-fill" />
 			</Button>
